@@ -1,0 +1,11 @@
+.title-logo {
+  font-size: 40px;
+  -webkit-text-stroke: 1px white;
+  color: transparent;
+}
+
+.title-logo span {
+  font-size: 38px;
+  -webkit-text-stroke: yellow;
+  color: yellow;
+}
