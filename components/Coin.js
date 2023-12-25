@@ -7,7 +7,7 @@ const Coin = ({ coin }) => {
   console.log(coin)
   return (
     <>
-      <div className="grid grid-cols-3 sm:grid-cols-4 font-light p-2 rounded border-gray-200 border-b hover:bg-gray-200">
+      <div className="grid grid-cols-3 sm:grid-cols-4 font-light p-2 rounded border-gray-200 border-b hover:border-gray-300 hover:border-2">
         <div className="flex items-center gap-1 w-full">
           <Image src={coin.image} alt={coin.name} width={24} height={24} />
           <p>{coin.name}</p>
